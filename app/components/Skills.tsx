@@ -60,7 +60,10 @@ export default function Skills() {
   ];
 
   return (
-    <div id="competences" className="py-20">
+    <div
+      id="competences"
+      className="py-20"
+    >
       <div className="max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl mx-auto text-center">
           <h2 className="text-3xl text-gray-800 font-semibold text-center">

@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 export default function Discover(){
   const posts = [
     {
@@ -22,11 +21,14 @@ export default function Discover(){
   ];
 
   return (
-    <section id="decouvrir" className="py-20 mx-auto px-4 max-w-screen-xl md:px-8">
+    <section
+      id="decouvrir"
+      className="py-20 mx-auto px-4 max-w-screen-xl md:px-8"
+    >
       <div className="text-center">
         <h2 className="text-3xl text-gray-800 font-semibold">ME DÉCOUVRIR</h2>
         <p className="mt-3 text-gray-500">
-         Découvrez mes passions et mes centres d'intérêts
+          Découvrez mes passions et mes centres d&apos;intérêts
         </p>
       </div>
       <div className="mt-12 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
