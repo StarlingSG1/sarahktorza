@@ -55,7 +55,7 @@ export default function Frise() {
             showDiv ? "w-screen" : "w-0"
           } absolute left-0 translate-y-[175%] h-1.5 bg-primary mt-16`}
         ></div>
-        <div className="w-full overflow-x-auto">
+        <div className="w-full overflow-x-auto overflow-y-hidden">
           <div className="w-[1000px] sm:w-full flex sm:grid sm:grid-cols-3 gap-6 mt-16">
             {data.map((item, index) => (
               <div
