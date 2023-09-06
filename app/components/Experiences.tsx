@@ -7,7 +7,7 @@ export default function Experiences() {
       date: "Avril 2023 - Juillet 2023 - 4 mois",
       type: "Alternance",
       location: "Igny",
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "Assistante commerciale et administrative",
@@ -16,7 +16,7 @@ export default function Experiences() {
       date: "Novembre 2022 - Janvier 2023 - 3 mois",
       type: "Alternance",
       location: "Igny",
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "Assistante commerciale et administrative",
@@ -25,12 +25,15 @@ export default function Experiences() {
       date: "Juin 2023 - Juillet 2023 - 2 mois",
       type: "Stage",
       location: "La Toussuire",
-      href: "javascript:void(0)",
+      href: "#",
     },
   ];
 
   return (
-    <section id="experiences" className="my-20  max-w-screen-lg mx-auto px-4 md:px-8">
+    <section
+      id="experiences"
+      className="py-16  my-4 max-w-screen-lg mx-auto px-4 md:px-8"
+    >
       <div>
         <h2 className="text-3xl text-gray-800 font-semibold text-center">
           MES EXPÉRIENCES

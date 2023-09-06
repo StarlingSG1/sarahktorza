@@ -43,7 +43,7 @@ export default function Frise() {
 
   return (
     <div
-      className="py-20"
+      className="py-16  my-4"
       id="formations"
     >
       <div className="max-w-screen-xl mx-auto px-4 md:px-8">

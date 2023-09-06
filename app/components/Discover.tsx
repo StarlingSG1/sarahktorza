@@ -1,29 +1,29 @@
-export default function Discover(){
+export default function Discover() {
   const posts = [
     {
       title: "Voyager",
       desc: "Tout comme le monde du voyage que j’apprécie car j’ai toujours eu la chance de pouvoir beaucoup voyager à travers divers pays, la Thaïlande, New York ou bien l’ile Maurice,  découvrir est quelque choses qui m’anime, me plait et ne construit pas de routine tout comme dans l’évènementiel !   ",
       img: "/assets/discover/plage.png",
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "La photographie",
       desc: "J’aime aussi la photographie, qui est aussi un domaine complémentaire à l’événementiel mais aussi au voyage qui me permet d’allier deux de mes passion. La photo permet d’immortaliser et de garder en mémoire et graver à jamais des souvenir ou des moment qu’on ne revivra peut être jamais comme un événement qui est un moment unique et magique",
       img: "/assets/discover/photo.png",
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "La danse",
       desc: "J’aime aussi la photographie, qui est aussi un domaine complémentaire à l’événementiel mais aussi au voyage qui me permet d’allier deux de mes passion. La photo permet d’immortaliser et de garder en mémoire et graver à jamais des souvenir ou des moment qu’on ne revivra peut être jamais comme un événement qui est un moment unique et magique",
       img: "/assets/discover/dance.png",
-      href: "javascript:void(0)",
+      href: "#",
     },
   ];
 
   return (
     <section
       id="decouvrir"
-      className="py-20 mx-auto px-4 max-w-screen-xl md:px-8"
+      className="py-16  my-4 mx-auto px-4 max-w-screen-xl md:px-8"
     >
       <div className="text-center">
         <h2 className="text-3xl text-gray-800 font-semibold">ME DÉCOUVRIR</h2>
@@ -54,4 +54,4 @@ export default function Discover(){
       </div>
     </section>
   );
-};
+}

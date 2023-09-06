@@ -6,17 +6,16 @@ export default function Header({
   active,
   items,
   activeTabRef,
+  setActiveTab,
 }: {
   active: number;
   items: any;
   activeTabRef: any;
+  setActiveTab: any;
 }) {
-  const [ulTranslate, setUlTranslate] = useState(0);
   const containerRef = useRef<any>(null);
 
   useEffect(() => {
-    // ...
-
     // Calculate the translation value for the ul element
     if (activeTabRef.current) {
       const tabRect = activeTabRef.current.getBoundingClientRect();
@@ -26,8 +25,6 @@ export default function Header({
         if (containerRef.current) {
           containerRef.current.scrollLeft = translateValue + 100; // Scroll to the beginning
         }
-
-        setUlTranslate(translateValue);
       } else if (tabRect.left < 0) {
         // Scroll left to bring the tab into view
         const translateValue = tabRect.left + window.scrollX;
@@ -59,8 +56,10 @@ export default function Header({
                 <Link
                   ref={active === index + 1 ? activeTabRef : null}
                   className={`uppercase ${
-                    active === index + 1 ? "text-black" : "text-gray-disabled"
-                  } hover:text-black duration-150 px-2 py-2`}
+                    active === index + 1
+                      ? "text-primary"
+                      : "text-gray-disabled hover:text-black"
+                  } duration-150 px-2 py-2`}
                   href={`/#${item.slug}`}
                 >
                   {item.name}

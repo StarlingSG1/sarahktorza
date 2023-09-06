@@ -8,6 +8,7 @@ import Experiences from "./components/Experiences";
 import Frise from "./components/Frise";
 import Header from "./components/Header";
 import { useEffect, useRef, useState } from "react";
+import Footer from "./components/Footer";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<number>(1);
@@ -40,19 +41,14 @@ export default function Home() {
       // Update the active tab as before
       if (isSectionInView("presentation")) {
         setActiveTab(1);
-        console.log("presentation");
       } else if (isSectionInView("formations")) {
         setActiveTab(2);
-        console.log("formations");
       } else if (isSectionInView("decouvrir")) {
         setActiveTab(3);
-        console.log("decouvrir");
       } else if (isSectionInView("competences")) {
         setActiveTab(4);
-        console.log("competences");
       } else if (isSectionInView("experiences")) {
         setActiveTab(5);
-        console.log("experiences");
       }
     };
 
@@ -61,7 +57,6 @@ export default function Home() {
 
     document.addEventListener("DOMContentLoaded", function () {
       const links = document.querySelectorAll("a[href^='#']");
-
       links.forEach((link: any) => {
         link.addEventListener("click", (e: any) => {
           e.preventDefault();
@@ -98,12 +93,14 @@ export default function Home() {
         active={activeTab}
         items={items}
         activeTabRef={activeTabRef}
+        setActiveTab={setActiveTab}
       />
       <Hero />
       <Frise />
       <Discover />
       <Skills />
       <Experiences />
+      <Footer items={items} />
     </>
   );
 }

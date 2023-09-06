@@ -62,7 +62,7 @@ export default function Skills() {
   return (
     <div
       id="competences"
-      className="py-20"
+      className="py-16  my-4"
     >
       <div className="max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl mx-auto text-center">
