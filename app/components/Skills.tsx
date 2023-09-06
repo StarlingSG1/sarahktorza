@@ -71,7 +71,7 @@ export default function Skills() {
           </h2>
 
           <p className="text-gray-600 mt-3">
-            Découvrez les langues et logicels que j'utilise au quotidien
+            Découvrez les langues et logicels que j&apos;utilise au quotidien
           </p>
         </div>
         <div className="mt-12 flex justify-center">
