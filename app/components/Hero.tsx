@@ -38,7 +38,7 @@ export default function Hero() {
       </div>
       <div className="flex-1 text-center mt-7 lg:mt-0 lg:ml-3">
         <img
-          // src="/assets/hero-portrait.png"
+          src="/assets/hero-portrait.png"
           className="w-full mx-auto sm:w-10/12  lg:max-w-full"
           alt="Sarah Ktorza"
         />
