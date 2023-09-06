@@ -2,26 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: "Avenir";
+  src: url("/assets/fonts/avenir-book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: "Avenir";
+  src: url("/assets/fonts/avenir-medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+  font-family: "Avenir";
+  src: url("/assets/fonts/avenir-black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+p,
+a,
+span,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+  transform: translateY(
+    0.06em
+  ); /* Ajustez cette valeur pour l'alignement vertical souhaité */
+  color: #130033;
+}
+
+
+html {
+  scroll-behavior: smooth;
 }
