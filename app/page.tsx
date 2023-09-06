@@ -40,37 +40,37 @@ export default function Home() {
     // Attach the scroll event listener
     window.addEventListener("scroll", handleScroll);
 
+    document.addEventListener("DOMContentLoaded", function () {
+      const links = document.querySelectorAll("a[href^='#']");
+  
+      links.forEach((link: any) => {
+        link.addEventListener("click", (e: any) => {
+          e.preventDefault();
+  
+          const targetId = link.getAttribute("href").substring(1); // Get the target section's ID
+          const targetSection = document.getElementById(targetId);
+  
+          if (targetSection) {
+            const offset = 50; // Adjust the offset as needed
+  
+            // Calculate the scroll position
+            const scrollPosition =
+              targetSection.getBoundingClientRect().top + window.scrollY + offset;
+  
+            window.scrollTo({
+              top: scrollPosition,
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+    });
     // Remove the event listener when the component unmounts
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
-  document.addEventListener("DOMContentLoaded", function () {
-    const links = document.querySelectorAll("a[href^='#']");
-
-    links.forEach((link: any) => {
-      link.addEventListener("click", (e: any) => {
-        e.preventDefault();
-
-        const targetId = link.getAttribute("href").substring(1); // Get the target section's ID
-        const targetSection = document.getElementById(targetId);
-
-        if (targetSection) {
-          const offset = 50; // Adjust the offset as needed
-
-          // Calculate the scroll position
-          const scrollPosition =
-            targetSection.getBoundingClientRect().top + window.scrollY + offset;
-
-          window.scrollTo({
-            top: scrollPosition,
-            behavior: "smooth",
-          });
-        }
-      });
-    });
-  });
 
   return (
     <>
