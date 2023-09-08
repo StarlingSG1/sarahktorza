@@ -22,7 +22,7 @@ export default function Frise() {
     {
       img: "",
       year: "2022",
-      title: "Bachelor *nom du bachelor*",
+      title: "Bachelor Chef de projet évènementiel",
       description:
         "En 2019 je rentre à l’Isefac Bachelor je fait donc mes trois 1ere années d’étude supérieur à l’Isefac, ce qui me permet de découvrir l’événementiel mais aussi faire des projets ",
       style: `transition-all duration-500 sm:w-auto w-[350px] delay-500 opacity-${
@@ -32,7 +32,7 @@ export default function Frise() {
     {
       img: "",
       year: "2023 - 2024",
-      title: "Master *nom du master*",
+      title: "MBA évènementiel et relations publiques",
       description:
         "Je décide de rester à Isefac et de continuer à approfondir mes acquis et mes connaissances, mais cette fois-ci en alternance afin d’allier études et entré dans le vie active professionnel. ",
       style: `transition-all duration-500 sm:w-auto w-[350px] delay-1000 opacity-${
