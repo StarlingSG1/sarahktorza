@@ -7,7 +7,6 @@ export default function Experiences() {
       date: "Avril 2023 - Juillet 2023 - 4 mois",
       type: "Alternance",
       location: "Igny, 91430",
-      href: "#",
     },
     {
       title: "Cheffe de projet événementiel",
@@ -16,7 +15,6 @@ export default function Experiences() {
       date: "Novembre 2022 - Janvier 2023 - 3 mois",
       type: "Alternance",
       location: "Paris, 75015",
-      href: "#",
     },
     {
       title: "Chargée de projet événementiel",
@@ -25,7 +23,6 @@ export default function Experiences() {
       date: "Mars 2022 - Juillet 2022 - 5 mois",
       type: "Stage",
       location: "La Toussuire, 73300",
-      href: "#",
     },
     {
       title: "Assistante évènementiel",
@@ -34,7 +31,6 @@ export default function Experiences() {
       date: "Mai 2021 - Juillet 2021 - 3 mois",
       type: "Stage",
       location: "Orsay, 91400",
-      href: "#",
     },
     {
       title: "Stagiaire",
@@ -43,7 +39,6 @@ export default function Experiences() {
       date: "Juin 2020 - 5 semaines",
       type: "Stage",
       location: "Igny, 91430",
-      href: "#",
     },
     {
       title: "Stagiaire",
@@ -52,7 +47,6 @@ export default function Experiences() {
       date: "Mai 2020 - 5 semaines",
       type: "Stage",
       location: "Massy, 91300",
-      href: "#",
     },
   ];
 
@@ -72,7 +66,7 @@ export default function Experiences() {
             key={idx}
             className="p-5 bg-white rounded-md shadow-sm"
           >
-            <a href={item.href}>
+            <div>
               <div>
                 <div className="justify-between gap-2 sm:flex">
                   <div className="flex-1">
@@ -133,7 +127,7 @@ export default function Experiences() {
                   </span>
                 </div>
               </div>
-            </a>
+            </div>
           </li>
         ))}
       </ul>

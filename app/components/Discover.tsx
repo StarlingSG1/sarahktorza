@@ -4,19 +4,16 @@ export default function Discover() {
       title: "Voyager",
       desc: "J'ai toujours eu un grand intérêt pour le domaine du voyage, une passion que j'ai cultivée grâce à mes opportunités de voyager fréquemment dans divers pays tels que la Thaïlande, New York et l'île Maurice. L'exploration et la découverte ont toujours été des sources d'inspiration pour moi, car elles échappent à la routine, un aspect que je trouve tout aussi captivant que dans le domaine de l'événementiel.",
       img: "/assets/discover/plage.png",
-      href: "#",
     },
     {
       title: "La photographie",
       desc: "J’aime aussi la photographie, qui est aussi un domaine complémentaire à l’événementiel mais aussi au voyage qui me permet d’allier deux de mes passion. La photo permet d’immortaliser et de garder en mémoire et graver à jamais des souvenir ou des moment qu’on ne revivra peut être jamais comme un événement qui est un moment unique et magique",
       img: "/assets/discover/photo.png",
-      href: "#",
     },
     {
       title: "La danse",
       desc: "Pendant de nombreuses années de ma jeunesse, j'ai consacré une part significative de mon temps à la pratique de la danse, notamment dans des styles tels que le moderne jazz, le street jazz et l'initiation à la danse classique. Ces activités m'ont offert l'opportunité à plusieurs reprises de participer à des représentations sur scène, tout en m'impliquant également en coulisses pour contribuer à la préparation des spectacles.",
       img: "/assets/discover/dance.png",
-      href: "#",
     },
   ];
 
@@ -37,7 +34,7 @@ export default function Discover() {
             className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm"
             key={key}
           >
-            <a href={items.href}>
+            <div>
               <img
                 src={items.img}
                 loading="lazy"
@@ -48,7 +45,7 @@ export default function Discover() {
                 <h3 className="text-xl text-gray-900">{items.title}</h3>
                 <p className="text-gray-400 text-sm mt-1">{items.desc}</p>
               </div>
-            </a>
+            </div>
           </article>
         ))}
       </div>

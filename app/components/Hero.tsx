@@ -4,6 +4,10 @@ export default function Hero() {
     { title: "Careers", path: "#" },
   ];
 
+  const openCV = () => {
+    window.open("/cv.pdf", "_blank");
+  };
+
   return (
     <section
       id="presentation"
@@ -22,14 +26,14 @@ export default function Hero() {
           d&apos;alternance dans le domaine de l&apos;événementiel.
         </p>
         <div className="pt-10 items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
-          <a
-            href="#"
+          <button
+            onClick={openCV}
             className="px-7 py-3 w-full bg-primary text-white text-center rounded-md shadow-md block sm:w-auto"
           >
             Mon CV
-          </a>
+          </button>
           <a
-            href="#"
+            href="#decouvrir"
             className="px-7 py-3 w-full bg-black text-white text-center rounded-md block sm:w-auto"
           >
             Me découvrir
