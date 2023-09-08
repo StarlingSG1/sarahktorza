@@ -14,7 +14,7 @@ export default function Discover() {
     },
     {
       title: "La danse",
-      desc: "",
+      desc: "Pendant de nombreuses années de ma jeunesse, j'ai consacré une part significative de mon temps à la pratique de la danse, notamment dans des styles tels que le moderne jazz, le street jazz et l'initiation à la danse classique. Ces activités m'ont offert l'opportunité à plusieurs reprises de participer à des représentations sur scène, tout en m'impliquant également en coulisses pour contribuer à la préparation des spectacles.",
       img: "/assets/discover/dance.png",
       href: "#",
     },
