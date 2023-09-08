@@ -2,7 +2,7 @@ export default function Discover() {
   const posts = [
     {
       title: "Voyager",
-      desc: "Tout comme le monde du voyage que j’apprécie car j’ai toujours eu la chance de pouvoir beaucoup voyager à travers divers pays, la Thaïlande, New York ou bien l’ile Maurice,  découvrir est quelque choses qui m’anime, me plait et ne construit pas de routine tout comme dans l’évènementiel !   ",
+      desc: "J'ai toujours eu un grand intérêt pour le domaine du voyage, une passion que j'ai cultivée grâce à mes opportunités de voyager fréquemment dans divers pays tels que la Thaïlande, New York et l'île Maurice. L'exploration et la découverte ont toujours été des sources d'inspiration pour moi, car elles échappent à la routine, un aspect que je trouve tout aussi captivant que dans le domaine de l'événementiel.",
       img: "/assets/discover/plage.png",
       href: "#",
     },
@@ -14,7 +14,7 @@ export default function Discover() {
     },
     {
       title: "La danse",
-      desc: "J’aime aussi la photographie, qui est aussi un domaine complémentaire à l’événementiel mais aussi au voyage qui me permet d’allier deux de mes passion. La photo permet d’immortaliser et de garder en mémoire et graver à jamais des souvenir ou des moment qu’on ne revivra peut être jamais comme un événement qui est un moment unique et magique",
+      desc: "",
       img: "/assets/discover/dance.png",
       href: "#",
     },

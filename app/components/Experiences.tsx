@@ -1,30 +1,57 @@
 export default function Experiences() {
   const jobs = [
     {
-      title: "Assistante commerciale et administrative",
-      business: "Mille et une merde",
-      desc: "Currently, ManTech is seeking a motivated, career and customer-oriented Software Developer to join our team in Fort Meade, MD.",
+      title: "Assistante administrative et commerciale",
+      business: "Millenium",
+      desc: "Réalisation de devis, suivi logistique des événements.",
       date: "Avril 2023 - Juillet 2023 - 4 mois",
       type: "Alternance",
-      location: "Igny",
+      location: "Igny, 91430",
       href: "#",
     },
     {
-      title: "Assistante commerciale et administrative",
-      business: "La maison de mon cul",
-      desc: "Currently, ManTech is seeking a motivated, career and customer-oriented Software Developer to join our team in Fort Meade, MD.",
+      title: "Cheffe de projet événementiel",
+      business: "Maison de la barbe à papa",
+      desc: "Organisation des événements et suivi avec les clients, logistique de l’événement.",
       date: "Novembre 2022 - Janvier 2023 - 3 mois",
       type: "Alternance",
-      location: "Igny",
+      location: "Paris, 75015",
       href: "#",
     },
     {
-      title: "Assistante commerciale et administrative",
-      business: "Office du tourisme de La Toussuire",
-      desc: "Currently, ManTech is seeking a motivated, career and customer-oriented Software Developer to join our team in Fort Meade, MD.",
-      date: "Juin 2023 - Juillet 2023 - 2 mois",
+      title: "Chargée de projet événementiel",
+      business: "ADBU",
+      desc: "Organisation du congrès annuel de l'association et gestion des inscriptions et de la facturation, recherche de prestataire et demande de devis.",
+      date: "Mars 2022 - Juillet 2022 - 5 mois",
       type: "Stage",
-      location: "La Toussuire",
+      location: "La Toussuire, 73300",
+      href: "#",
+    },
+    {
+      title: "Assistante évènementiel",
+      business: "Office du tourisme de la Toussuire",
+      desc: "Organisation du festival du rire et du concert de Benjamin Biolay",
+      date: "Mai 2021 - Juillet 2021 - 3 mois",
+      type: "Stage",
+      location: "Orsay, 91400",
+      href: "#",
+    },
+    {
+      title: "Stagiaire",
+      business: "Agence RJS",
+      desc: "Recherche et prise de contact avec des prestataires, benchmark pour un podcast",
+      date: "Juin 2020 - 5 semaines",
+      type: "Stage",
+      location: "Igny, 91430",
+      href: "#",
+    },
+    {
+      title: "Stagiaire",
+      business: "Real Expert",
+      desc: "Gestion des réseaux sociaux, modélisation 3D sur Google Sketchup.",
+      date: "Mai 2020 - 5 semaines",
+      type: "Stage",
+      location: "Massy, 91300",
       href: "#",
     },
   ];
@@ -47,7 +74,7 @@ export default function Experiences() {
           >
             <a href={item.href}>
               <div>
-                <div className="justify-between sm:flex">
+                <div className="justify-between gap-2 sm:flex">
                   <div className="flex-1">
                     <h3 className="text-xl font-medium text-primary">
                       {item.title} - {item.business}

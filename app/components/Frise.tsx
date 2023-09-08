@@ -21,20 +21,20 @@ export default function Frise() {
     },
     {
       img: "",
-      year: "2019",
-      title: "Baccalaureat STMG",
+      year: "2022",
+      title: "Bachelor *nom du bachelor*",
       description:
-        "J’ai obtenue mon Bac STMG option mercatique au lycée Sophie Barat à Châtenay-Malabry dans le 92",
+        "En 2019 je rentre à l’Isefac Bachelor je fait donc mes trois 1ere années d’étude supérieur à l’Isefac, ce qui me permet de découvrir l’événementiel mais aussi faire des projets ",
       style: `transition-all duration-500 sm:w-auto w-[350px] delay-500 opacity-${
         showDiv ? "100" : "0"
       }`,
     },
     {
       img: "",
-      year: "2019",
-      title: "Baccalaureat STMG",
+      year: "2023 - 2024",
+      title: "Master *nom du master*",
       description:
-        "J’ai obtenue mon Bac STMG option mercatique au lycée Sophie Barat à Châtenay-Malabry dans le 92",
+        "Je décide de rester à Isefac et de continuer à approfondir mes acquis et mes connaissances, mais cette fois-ci en alternance afin d’allier études et entré dans le vie active professionnel. ",
       style: `transition-all duration-500 sm:w-auto w-[350px] delay-1000 opacity-${
         showDiv ? "100" : "0"
       }`,
