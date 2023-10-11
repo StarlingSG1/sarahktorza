@@ -8,7 +8,7 @@ export default function Project() {
             </div>
             <div>
                 <h3>Magazine réalisé en pour un projet en cours en 2021 : (mettre un lien qui ouvre le mag en pdf) </h3>
-                <h3>Réalisation en groupe d'un Pop Up store pour la marque The Kooples (mettre un lien qui ouvre la
+                <h3>Réalisation en groupe dun Pop Up store pour la marque The Kooples (mettre un lien qui ouvre la
                     vidéo) </h3>
             </div>
         </section>

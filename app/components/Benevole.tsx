@@ -15,7 +15,7 @@ export default function Benevole() {
         }, {
             title: "Imagine for Margo",
             date: "Septembre 2017",
-            desc: "Association qui mène des actions de sensibilisation et de collecte de fonds afin d’aider la recherche du cancer chez l’enfant",
+            desc: "Association qui mène des actions de sensibilisation et de collecte de fonds afin de venir en aide la recherche du cancer chez les enfants",
             img: "/assets/benevolat/margo.png",
         },
     ]
@@ -29,7 +29,7 @@ export default function Benevole() {
             </div>
             <div className={"mt-12 grid grid-cols-2 sm:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-8"}>
                 {data.map(({title, date, desc, img}, index) => (
-                    <div className={"flex w-full flex-col gap-4 items-center"}>
+                    <div key={index} className={"flex w-full flex-col gap-4 items-center"}>
                         <img className={"w-full bg-[#F7F7F7] object-contain aspect-video"} src={img}></img>
                         <h3 className={"text-xl font-medium text-primary"}>{title}</h3>
                         <p className={"text-gray-500"}>{date}</p>
