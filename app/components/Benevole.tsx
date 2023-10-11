@@ -4,10 +4,11 @@ export default function Benevole() {
     const data = [
         {
             title: "Woof run",
-            date: "Septembre 2023",
+            date: "Septembre 2020",
             desc: "Deux jours de bénévolat sur le premier festival pour chien",
             img: "/assets/benevolat/woofrun.png",
-        }, {
+        },
+        {
             title: "Maddy Keynote",
             date: "Janvier 2020",
             desc: "Conférence qui rassemble entrepreneurs, investisseurs, médias ...",
@@ -21,7 +22,7 @@ export default function Benevole() {
     ]
 
     return (
-        <section className={"py-16 my-4 max-w-screen-lg mx-auto px-4 md:px-8"}>
+        <section id={"benevolat"} className={"py-16 my-4 max-w-screen-lg mx-auto px-4 md:px-8"}>
             <div>
                 <h2 className="text-3xl text-gray-800 font-semibold text-center">
                     MES ACTIONS BÉNÉVOLES
