@@ -17,9 +17,10 @@ export default function Home() {
     const items: any = [
         {name: "Présentation", slug: "presentation"},
         {name: "Formations", slug: "formations"},
-        {name: "Découvrir", slug: "decouvrir"},
         {name: "Compétences", slug: "competences"},
         {name: "Expériences", slug: "experiences"},
+        {name: "Projets", slug: "projects"},
+        {name: "Passions", slug: "decouvrir"},
     ];
 
     const activeTabRef = useRef(null);
@@ -51,6 +52,8 @@ export default function Home() {
                 setActiveTab(4);
             } else if (isSectionInView("experiences")) {
                 setActiveTab(5);
+            } else if (isSectionInView("projects")) {
+                setActiveTab(6);
             }
         };
 
@@ -99,10 +102,10 @@ export default function Home() {
             />
             <Hero/>
             <Frise/>
-            <Discover/>
             <Skills/>
             <Experiences/>
             <Project/>
+            <Discover/>
             <Benevole/>
             <Footer items={items}/>
         </>

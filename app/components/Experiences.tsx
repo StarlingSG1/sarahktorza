@@ -6,6 +6,7 @@ export default function Experiences() {
       desc: "Réalisation de devis, suivi logistique des événements.",
       date: "Avril 2023 - Juillet 2023 - 4 mois",
       type: "Alternance",
+      logo: "/assets/experiences/millenium.svg",
       location: "Igny, 91430",
     },
     {
@@ -14,6 +15,7 @@ export default function Experiences() {
       desc: "Organisation des événements et suivi avec les clients, logistique de l’événement.",
       date: "Novembre 2022 - Janvier 2023 - 3 mois",
       type: "Alternance",
+      logo: "/assets/experiences/barbe-a-papa.png",
       location: "Paris, 75015",
     },
     {
@@ -22,7 +24,8 @@ export default function Experiences() {
       desc: "Organisation du congrès annuel de l'association et gestion des inscriptions et de la facturation, recherche de prestataire et demande de devis.",
       date: "Mars 2022 - Juillet 2022 - 5 mois",
       type: "Stage",
-      location: "La Toussuire, 73300",
+      logo: "/assets/experiences/adbu.jpeg",
+      location: "Orsay, 91400",
     },
     {
       title: "Assistante évènementiel",
@@ -30,7 +33,8 @@ export default function Experiences() {
       desc: "Organisation du festival du rire et du concert de Benjamin Biolay",
       date: "Mai 2021 - Juillet 2021 - 3 mois",
       type: "Stage",
-      location: "Orsay, 91400",
+      logo: "/assets/experiences/la-toussuire.png",
+      location: "La Toussuire, 73300",
     },
     {
       title: "Stagiaire",
@@ -38,6 +42,7 @@ export default function Experiences() {
       desc: "Recherche et prise de contact avec des prestataires, benchmark pour un podcast",
       date: "Juin 2020 - 5 semaines",
       type: "Stage",
+      logo: "/assets/experiences/rjs.png",
       location: "Igny, 91430",
     },
     {
@@ -46,6 +51,7 @@ export default function Experiences() {
       desc: "Gestion des réseaux sociaux, modélisation 3D sur Google Sketchup.",
       date: "Mai 2020 - 5 semaines",
       type: "Stage",
+      logo: "/assets/experiences/real-expert.png",
       location: "Massy, 91300",
     },
   ];
@@ -64,8 +70,9 @@ export default function Experiences() {
         {jobs.map((item, idx) => (
           <li
             key={idx}
-            className="p-5 bg-white rounded-md shadow-sm"
+            className="p-5 bg-white rounded-md shadow-sm relative"
           >
+            <img src={item.logo} alt={item.title} className={"absolute bottom-5 right-5 h-16 aspect-square rounded-md object-contain"}/>
             <div>
               <div>
                 <div className="justify-between gap-2 sm:flex">
