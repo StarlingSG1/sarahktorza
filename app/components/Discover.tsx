@@ -19,7 +19,7 @@ export default function Discover() {
 
   return (
     <section
-      id="decouvrir"
+      id="passions"
       className="py-16  my-4 mx-auto px-4 max-w-screen-xl md:px-8"
     >
       <div className="text-center">

@@ -46,13 +46,13 @@ export default function Home() {
                 setActiveTab(1);
             } else if (isSectionInView("formations")) {
                 setActiveTab(2);
-            } else if (isSectionInView("decouvrir")) {
-                setActiveTab(3);
             } else if (isSectionInView("competences")) {
-                setActiveTab(4);
+                setActiveTab(3);
             } else if (isSectionInView("experiences")) {
-                setActiveTab(5);
+                setActiveTab(4);
             } else if (isSectionInView("projects")) {
+                setActiveTab(5);
+            } else if (isSectionInView("passions")) {
                 setActiveTab(6);
             }
         };

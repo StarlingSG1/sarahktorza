@@ -1,6 +1,15 @@
 export default function Experiences() {
   const jobs = [
     {
+      title: "Assistante cheffe de projet événementiel",
+      business: "Overcome",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+      date: "Octobre 2023 - Septembre 2024 - 11 mois",
+      type: "Alternance",
+      logo: "/assets/experiences/overcome.png",
+      location: "Paris, 76016",
+    },
+    {
       title: "Assistante administrative et commerciale",
       business: "Millenium",
       desc: "Réalisation de devis, suivi logistique des événements.",
@@ -72,7 +81,7 @@ export default function Experiences() {
             key={idx}
             className="p-5 bg-white rounded-md shadow-sm relative"
           >
-            <img src={item.logo} alt={item.title} className={"absolute bottom-5 right-5 h-16 aspect-square rounded-md object-contain"}/>
+            <img src={item.logo} alt={item.business} className={"absolute bottom-5 right-5 h-16 aspect-square rounded-md object-contain"}/>
             <div>
               <div>
                 <div className="justify-between gap-2 sm:flex">
