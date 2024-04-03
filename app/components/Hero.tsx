@@ -37,7 +37,7 @@ export default function Hero() {
                     </button>
                     <a
                         href="#decouvrir"
-                        className="px-7 py-3 w-full bg-black text-white text-center rounded-md block sm:w-auto"
+                            className="px-7 py-3 w-full bg-black text-white text-center rounded-md block sm:w-auto"
                     >
                         Me découvrir
                     </a>

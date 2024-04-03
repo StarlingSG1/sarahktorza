@@ -17,7 +17,7 @@ module.exports = {
         gray: {
           "disabled" : "#BABABA"
         },
-        black: '#130033',
+        black: '#1F1F1F',
         "skills": {
           "bg": {
             "canva": "#00C4CC",
