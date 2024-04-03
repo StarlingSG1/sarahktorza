@@ -3,7 +3,7 @@ export default function Experiences() {
     {
       title: "Assistante cheffe de projet événementiel",
       business: "Overcome",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+      desc: "Suivi logistique, création de newsletter, mise à jour du site web via Wordpress",
       date: "Octobre 2023 - Septembre 2024 - 11 mois",
       type: "Alternance",
       logo: "/assets/experiences/overcome.png",
@@ -89,7 +89,7 @@ export default function Experiences() {
                     <h3 className="text-xl font-medium text-primary">
                       {item.title} - {item.business}
                     </h3>
-                    <p className="text-gray-500 mt-2 pr-2">{item.desc}</p>
+                    <p className=" mt-2 pr-2">{item.desc}</p>
                   </div>
                   <div className="mt-5 space-y-4 text-sm sm:mt-0 sm:space-y-2">
                     <span className="flex items-center text-gray-500">
