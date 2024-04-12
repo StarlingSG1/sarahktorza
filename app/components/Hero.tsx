@@ -25,7 +25,7 @@ export default function Hero() {
                     <strong> l&apos;ISEFAC</strong> en <strong>alternance</strong>, je suis à la recherche d&apos;une
                     opportunité
                     en <strong className={""}>CDI</strong> en tant que <strong className={""}>cheffe de projet
-                    événementielle</strong>.
+                    événementiel</strong>.
                 </p>
                 <div
                     className="pt-10 items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
