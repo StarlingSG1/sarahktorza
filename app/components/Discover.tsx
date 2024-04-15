@@ -2,12 +2,12 @@ export default function Discover() {
   const posts = [
     {
       title: "Voyager",
-      desc: "J'ai toujours eu un grand intérêt pour le domaine du voyage, une passion que j'ai cultivée grâce à mes opportunités de voyager fréquemment dans divers pays tels que la Thaïlande, New York et l'île Maurice. L'exploration et la découverte ont toujours été des sources d'inspiration pour moi, car elles échappent à la routine, un aspect que je trouve tout aussi captivant que dans le domaine de l'événementiel.",
+      desc: "J’ai toujours eu un grand intérêt pour les voyages, une passion que j'ai cultivée grâce à mes opportunités de voyager fréquemment dans divers pays tels que la Thaïlande, New York et l'île Maurice. L'exploration et la découverte ont toujours été des sources d'inspiration pour moi, car elles échappent à la routine, un aspect que je trouve tout aussi captivant que dans le domaine de l'événementiel.",
       img: "/assets/discover/plage.png",
     },
     {
       title: "La photographie",
-      desc: "J’aime aussi la photographie, qui est aussi un domaine complémentaire à l’événementiel mais aussi au voyage qui me permet d’allier deux de mes passion. La photo permet d’immortaliser et de garder en mémoire et graver à jamais des souvenir ou des moment qu’on ne revivra peut être jamais comme un événement qui est un moment unique et magique",
+      desc: "J’aime la photographie, qui est un domaine complémentaire à l’événementiel mais également au voyage. La photo permet d’immortaliser, de garder en mémoire et graver à jamais des souvenirs ou des moments qu’on ne revivra peut être jamais comme un événement qui est un moment unique et magique.",
       img: "/assets/discover/photo.png",
     },
     {

@@ -57,6 +57,13 @@ export default function Skills() {
       label: "InDesign",
       type: "skill",
     },
+    {
+      img: "/assets/skills/wordpress.svg",
+      text: "#FFF",
+      bg: "#21759B",
+      label: "Wordpress",
+      type: "skill",
+    },
   ];
 
   return (
@@ -75,7 +82,7 @@ export default function Skills() {
           </p>
         </div>
         <div className="mt-12 flex justify-center">
-          <ul className="grid grid-cols-1 sm:gap-y-4 sm:grid-cols-2 gap-x-10 gap-y-6 md:gap-x-16 md:grid-cols-3 lg:grid-cols-4">
+          <ul className="grid grid-cols-1 sm:gap-y-4 sm:grid-cols-2 gap-x-10 gap-y-6 md:gap-x-16 md:grid-cols-3">
             {skills.map((skill, index) => (
               <li key={index}>
                 <div

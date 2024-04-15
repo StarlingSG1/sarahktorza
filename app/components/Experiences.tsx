@@ -3,7 +3,7 @@ export default function Experiences() {
     {
       title: "Assistante cheffe de projet événementiel",
       business: "Overcome",
-      desc: "Suivi logistique, création de newsletter, mise à jour du site web via Wordpress",
+      desc: "Suivi logistique, présence sur les événements, création de newsletter, mise à jour du site web via Wordpress.",
       date: "Octobre 2023 - Septembre 2024 - 11 mois",
       type: "Alternance",
       logo: "/assets/experiences/overcome.png",
@@ -21,7 +21,7 @@ export default function Experiences() {
     {
       title: "Cheffe de projet événementiel",
       business: "Maison de la barbe à papa",
-      desc: "Organisation des événements et suivi avec les clients, logistique de l’événement.",
+      desc: "Organisation et gestion logistique des événements, relation avec les clients.",
       date: "Novembre 2022 - Janvier 2023 - 3 mois",
       type: "Alternance",
       logo: "/assets/experiences/barbe-a-papa.png",
@@ -30,7 +30,7 @@ export default function Experiences() {
     {
       title: "Chargée de projet événementiel",
       business: "ADBU",
-      desc: "Organisation du congrès annuel de l'association et gestion des inscriptions et de la facturation, recherche de prestataire et demande de devis.",
+      desc: "Organisation du congrès annuel de l'association, gestion des inscriptions, suivi de la facturation, recherche de prestataires et demande de devis.",
       date: "Mars 2022 - Juillet 2022 - 5 mois",
       type: "Stage",
       logo: "/assets/experiences/adbu.jpeg",
@@ -39,7 +39,7 @@ export default function Experiences() {
     {
       title: "Assistante évènementiel",
       business: "Office du tourisme de la Toussuire",
-      desc: "Organisation du festival du rire et du concert de Benjamin Biolay",
+      desc: "Organisation du Festival du Rire et du concert de Benjamin Biolay.",
       date: "Mai 2021 - Juillet 2021 - 3 mois",
       type: "Stage",
       logo: "/assets/experiences/la-toussuire.png",
@@ -48,7 +48,7 @@ export default function Experiences() {
     {
       title: "Stagiaire",
       business: "Agence RJS",
-      desc: "Recherche et prise de contact avec des prestataires, benchmark pour un podcast",
+      desc: "* Recherche, prise de contact avec des prestataires et élaborations d’un tableau comparatif pour le choix du prestataire,  benchmark pour un podcast.",
       date: "Juin 2020 - 5 semaines",
       type: "Stage",
       logo: "/assets/experiences/rjs.png",
@@ -57,7 +57,7 @@ export default function Experiences() {
     {
       title: "Stagiaire",
       business: "Real Expert",
-      desc: "Gestion des réseaux sociaux, modélisation 3D sur Google Sketchup.",
+      desc: "Gestion des réseaux sociaux, modélisation 3D sur Sketchup.",
       date: "Mai 2020 - 5 semaines",
       type: "Stage",
       logo: "/assets/experiences/real-expert.png",

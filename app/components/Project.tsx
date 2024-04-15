@@ -13,11 +13,11 @@ export default function Project() {
                 </h2>
             </div>
             <div className={"mt-12 flex flex-col gap-4"}>
-                <h3>Magazine réalisé en pour un projet en cours en 2021 : <button onClick={openMagazine}
+                <h3>Création d’un magazine en 2021 dans le cadre d’un projet de classe : <button onClick={openMagazine}
                                                                                   className={"underline text-primary"}>voir
                     le magazine</button></h3>
 
-                <h3>Réalisation en groupe dun Pop Up store pour la marque The Kooples : <a href={"/video"}
+                <h3>Réalisation en groupe d&apos;un Pop Up store pour la marque The Kooples : <a href={"/video"}
                                                                                                 className={"underline text-primary"}>voir la vidéo</a></h3>
             </div>
         </section>

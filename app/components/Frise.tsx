@@ -28,7 +28,7 @@ export default function Frise() {
             school: "Isefac Bachelor",
             logo: "/assets/formations/isefac.png",
             description:
-                "En 2019, je rentre à l’Isefac Bachelor. J’effectue mes trois premières années d’études supérieures, qui me permettent de découvrir l’évènementiel et également de réaliser des projets.",
+                "En 2019, je rentre à l’Isefac. J’effectue mes 3 premières années d’études supérieures, qui me permettent de découvrir l’évènementiel et également de réaliser des projets.",
             style: `transition-all duration-500 sm:w-auto w-[350px] delay-500 opacity-${
                 showDiv ? "100" : "0"
             }`,
@@ -40,7 +40,7 @@ export default function Frise() {
             school: "Isefac",
             logo: "/assets/formations/isefac.png",
             description:
-                "Je décide de rester à Isefac et de continuer à approfondir mes acquis et mes connaissances, mais cette fois-ci en alternance afin d’allier études et entré dans le vie active professionnel.",
+            "Je poursuis par un MBA  en alternance toujours à Isefac, afin d’allier études et entré dans le vie active professionnel.",
             style: `transition-all duration-500 sm:w-auto w-[350px] delay-1000 opacity-${
                 showDiv ? "100" : "0"
             }`,
@@ -70,8 +70,8 @@ export default function Frise() {
                             >
                                 <div className="rounded-full w-7 h-7 bg-primary mb-5"></div>
                                 <div className={"flex gap-4 items-end justify-between"}>
-                                {/*<img src={item.logo} className={"h-20 w-20 object-contain"}/>*/}
-                                <h3 className="text-2xl font-black">{item.year} <span className={"text-sm text-gray-800 font-normal italic"}>{item.school}</span></h3>
+                                <h3 className="text-2xl font-black">{item.year} <span
+                                    className={"text-sm text-gray-800 font-normal italic"}>{item.school}</span></h3>
                                 </div>
                                 <div className={"h-1.5 w-8 mt-2 bg-primary rounded-full"}></div>
                                 <p className="font-medium text-lg my-2">{item.title}</p>
