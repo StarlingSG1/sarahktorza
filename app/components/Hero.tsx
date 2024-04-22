@@ -1,8 +1,4 @@
 export default function Hero() {
-    const navigation = [
-        {title: "Customers", path: "#"},
-        {title: "Careers", path: "#"},
-    ];
 
     const openCV = () => {
         window.open("/cv.pdf", "_blank");
@@ -46,7 +42,7 @@ export default function Hero() {
             <div className="flex-1 text-center mt-7 lg:mt-0 lg:ml-3">
                 <img
                     src="/assets/hero-portrait.png"
-                    className="w-full mx-auto sm:w-2/3 bg-primary rounded-full  lg:max-w-full"
+                    className="w-full mx-auto sm:w-2/3 bg-primary rounded-full aspect-square object-cover object-top  lg:max-w-full"
                     alt="Sarah Ktorza"
                 />
             </div>

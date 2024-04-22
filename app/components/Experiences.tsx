@@ -48,7 +48,7 @@ export default function Experiences() {
     {
       title: "Stagiaire",
       business: "Agence RJS",
-      desc: "* Recherche, prise de contact avec des prestataires et élaborations d’un tableau comparatif pour le choix du prestataire,  benchmark pour un podcast.",
+      desc: "Recherche, prise de contact avec des prestataires et élaborations d’un tableau comparatif pour le choix du prestataire,  benchmark pour un podcast.",
       date: "Juin 2020 - 5 semaines",
       type: "Stage",
       logo: "/assets/experiences/rjs.png",
