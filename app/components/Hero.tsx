@@ -1,7 +1,7 @@
 export default function Hero() {
 
     const openCV = () => {
-        window.open("/cv.pdf", "_blank");
+        window.open("/sarah-ktorza-cv.pdf", "_blank");
     };
 
     return (
@@ -32,7 +32,7 @@ export default function Hero() {
                         Mon CV
                     </button>
                     <a
-                        href="#decouvrir"
+                        href="#formations"
                             className="px-7 py-3 w-full bg-black text-white text-center rounded-md block sm:w-auto"
                     >
                         Me découvrir

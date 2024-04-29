@@ -20,7 +20,7 @@ export default function Home() {
         {name: "Compétences", slug: "competences"},
         {name: "Expériences", slug: "experiences"},
         {name: "Projets", slug: "projects"},
-        {name: "Passions", slug: "decouvrir"},
+        {name: "Passions", slug: "passions"},
     ];
 
     const activeTabRef = useRef(null);
