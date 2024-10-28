@@ -18,7 +18,7 @@ export default function Hero() {
                 </h1>
                 <p className="text-black max-w-xl leading-relaxed sm:mx-auto lg:ml-0">
                     <strong>Diplomée</strong> d&apos;un <strong>Master Événementiel et Relations Publiques</strong> à
-                    l&apos;ISEFAC, je suis actuellement à la recherche d&apos;une <strong>opportunité en CDI</strong> en tant
+                    l&apos;ISEFAC.<br/> Je suis actuellement à la recherche d&apos;une <strong>opportunité en CDI</strong> en tant
                     que <strong>cheffe de projet événementielle</strong>.
                 </p>
                 <div
