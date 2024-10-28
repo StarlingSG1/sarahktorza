@@ -4,7 +4,7 @@ export default function Experiences() {
       title: "Assistante cheffe de projet événementiel",
       business: "Overcome",
       desc: "Suivi logistique, présence sur les événements, création de newsletter, mise à jour du site web via Wordpress.",
-      date: "Octobre 2023 - Septembre 2024",
+      date: "Octobre 2023 - Juin 2024",
       type: "Alternance",
       logo: "/assets/experiences/overcome.png",
       location: "Paris, 76016",

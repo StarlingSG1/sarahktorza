@@ -17,11 +17,9 @@ export default function Hero() {
           </span>
                 </h1>
                 <p className="text-black max-w-xl leading-relaxed sm:mx-auto lg:ml-0">
-                    Actuellement en <strong>Master Événementiel et Relations Publiques</strong> à
-                    <strong> l&apos;ISEFAC</strong> en <strong>alternance</strong>, je suis à la recherche d&apos;une
-                    opportunité
-                    en <strong className={""}>CDI</strong> en tant que <strong className={""}>cheffe de projet
-                    événementiel</strong>.
+                    <strong>Diplomée</strong> d&apos;un <strong>Master Événementiel et Relations Publiques</strong> à
+                    l&apos;ISEFAC, je suis actuellement à la recherche d&apos;une <strong>opportunité en CDI</strong> en tant
+                    que <strong>cheffe de projet événementielle</strong>.
                 </p>
                 <div
                     className="pt-10 items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
@@ -33,7 +31,7 @@ export default function Hero() {
                     </button>
                     <a
                         href="#formations"
-                            className="px-7 py-3 w-full bg-black text-white text-center rounded-md block sm:w-auto"
+                        className="px-7 py-3 w-full bg-black text-white text-center rounded-md block sm:w-auto"
                     >
                         Me découvrir
                     </a>
